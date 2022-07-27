@@ -20,5 +20,6 @@ namespace DataAccess.Concrate.EntityFramework
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<Costumer> Costurmers { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
